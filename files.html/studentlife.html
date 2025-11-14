@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head>
+<title>MUET UNIVERSITY</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header-sub">
+   <nav>
+     <a href="home.html"><img src="https://site.muet.edu.pk/sites/default/files/muet_logo.png"></a>
+	 <div class="nav-links" id="navLinks">
+	 <i class="fa fa-times" onclick="hideMenu()"></i>
+	 <ul>
+	 <li><a href="home.html">HOME</a>
+	 <li><a href="programs.html">PROGRAM/COURSES</a>
+	 <li><a href="studentlife.html">STUDENTS LIFE</a>
+	 </ul>
+	 </div>
+	 <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+  </section>
+  <!----------students life------------->
+  <section class="students">
+    <div class="row">
+	 <div class="students-col">
+	   <h1>Students Socities</h1>
+	   <p>we are dedicated to supporting your academic and personal growth. From course resources and career services to student clubs and campus facilities, everything you need to excel is at your fingertips. This is your space to discover opportunities, build skills, and shape your future.
+	   The Students’ Affairs Office at Mehran University of Engineering and Technology (MUET) is dedicated to enhancing the student experience both inside and outside the classroom. Acting as a bridge between students, faculty, and administration, the office plays a vital role in ensuring a supportive and vibrant campus environment.<br><br>
+	   Meet the incredible Mum's Membership Team – the driving force behind our society's growth and success! Led by the dynamic Ms. Nida Soomro (23BSM), this dedicated team is comprised of Rabia (23BSM), Shayan (23BSM), Hareem (23BSM), and Nargis (23BSM). 
+Together, they're passionate about creating a sense of belonging, fostering connections, and building a supportive community. From welcoming new mums to keeping the connection strong, they’re here to make every member feel seen, supported, and truly at home. Get ready to be inspired by their enthusiasm and commitment to nurturing meaningful relationships within our society!</p>
+	    <a href="https://www.muet.edu.pk/students" class="button btn">join interst</a>
+	 </div>
+	  <div class="students-col">
+	  <img src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t51.82787-15/526667899_17967802187920612_8235605208723091460_n.webp?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHCQ1K4PmsZr__X1inRUk5WrIMVCWUyXZSsgxUJZTJdlDw8hf1dPVwMhgkaU41SvhbwWxcxS5eDND_c0N_3qQeu&_nc_ohc=hSJfkKeNNEUQ7kNvwET1ZjW&_nc_oc=Adnqj1vab2j3Gb-I4mOn9UI-kT6ypksQmfB0GG8XxLwNyH9McQBqBc0_O_X6EWq9cf0&_nc_zt=23&_nc_ht=scontent.fkhi2-2.fna&_nc_gid=sN393Kk87QOd9jjh4XU6tw&oh=00_Afhkzb2DOvTFpbf3ym36aPPL3lDCsUAc04imxTpOvhpcGA&oe=6914BCAE"></div>
+	</div> 
+ </section>
+  
+    <!------------javascript for hide show menu-------->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+         navLinks.style.right = "0";
+	}
+	function hideMenu(){
+         navLinks.style.right = "-200px";
+	}
+  </script>
+  
+  	 <!---------footer------->
+<section class="footer">
+  <div class="icons">
+   <a href="https://www.facebook.com/muet.pk/about/?_rdr"><i class="fa fa-facebook"></i></a>
+    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Flinkedin.com%2Fin%2Fhttps%253A%252F%252Fwww.linkedin.com%252Fschool%252Fmuet%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdEtFdzVsSVc2anBhVElzT3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR54Cd_xkE2sXvKgNfn4ZIDqf4nkG4RfTxwTuLfx4rgvUPGutxXl579oXi5-2Q_aem_sMfOaB7ITwR_zJpEx-XctA&h=AT3OpeYCdjmybAF0p7PGxqD77bP72-l2vUUdNWIK9E0s17_yXZeCIwkGA1DSea2GAWfHdKezyaokkQ85Qn_2eBgNdtDwuCiyrj7eFsxShgLMX1djWQsE0YqNh2AvKOyiFK3O"><i class="fa fa-linkedin"></i></a>
+	 <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmuetpk%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdEtFdzVsSVc2anBhVElzT3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7DlBKzcBp5jfhLBDEoMFzdjJgJeeOaLVnd6KT1j8_YKYyxv6XScRu7G-3tzQ_aem_LP5ZZihdq80yLVEB6V6_GA&h=AT3PQBGtIcSGLOH1zoqXLULm5cLQX-dBLZAS0nBKeI9kpUz3E2QvZ6Z5OnEoH25XAbBSbUZ1NsE1aRR4crbYkF7EfpQAwx5Phaapm5K16Jcaf1G3sKf3cXVI5NXf_6ObIx830w"><i class="fa fa-instagram"></i></a>
+	  <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%2540muet%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdEtFdzVsSVc2anBhVElzT3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5dPdU_I6CSAYNgZ245q2GsUf8NrcMOb0iPbPKzEzQh571tMaYbdXL5yUk3Qw_aem_979ZWr6EnilVn22kzCmQ8Q&h=AT39xOSX_Qtc5yPOlMGvy_yaaWPdL5i1i2ULsPyuw5tXFOT73ZQ8B5aFxnuTavJDmizEpFxnVHniaTnfo4wPuSkqPhc67Ul8jbivZ8F6YenGD_Zn56HeJapmwdsU5rTy8LLlVg"><i class="fa fa-youtube"></i></a>
+	   <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fx.com%2Fmuetpk%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExdEtFdzVsSVc2anBhVElzT3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5GFZPaDMHAlUuUegW91_UaDr5F3aUuhE3VF_W0Z9P6W5h8xDozsJHSHp4iJg_aem_nYJaBwn0NtilYAkSaaXDLg&h=AT30rqVj8v2mN3leHL_a2AbeBboKOPUqgswK6Y4nOOzcpxRmHGnvPRxdFwQOlYvyOT1leZ2EDSOogyE44VxzJLt-_Rncag3XpuY6OVXCFWakNaK0lieliFuNWN7saOAIr6vnTg"><i class="fa fa-twitter"></i></a>
+  <p>©2025 Mehran UET, Jamshoro, 76062, Sindh, Pakistan.</p>
+  </div>
+</section>
+</body>
+</html>
